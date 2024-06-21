@@ -3,8 +3,6 @@ Teste Prático para Desenvolvedor Pleno C#, Windows Forms e PostgreSQL
 
 # Documentação do Sistema
 
-## Visão Geral
-
 ## Casos de Uso 
 
 ### Gerenciamento de Clientes
