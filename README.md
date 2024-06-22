@@ -28,7 +28,7 @@ Teste Prático para Desenvolvedor Pleno C#, Windows Forms e PostgreSQL
 - **Linguagem de Programação**: C#
 - **Interface Gráfica**: Windows Forms com MetroSet_UI
 - **Banco de Dados**: PostgreSQL versão 13.15
-- **Driver de Conexão com PostgreSQL**: NPGSQL
+- **Driver de Conexão com PostgreSQL**: NPGSQL 8.03
 - **Controle de Versão**: Git
 - **Ferramenta de Relatórios**: ReportViewer
 - **Arquitetura**: Clean Architecture
