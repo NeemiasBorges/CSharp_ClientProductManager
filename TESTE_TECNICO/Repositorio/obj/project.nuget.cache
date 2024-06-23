@@ -1,0 +1,15 @@
+{
+  "version": 2,
+  "dgSpecHash": "VYzESNyQLge+lZllBtCMCrl1fqnWeNCA3+6264C5cQg9+/K45BJXuTB5y/JpU41tYdoayrvl4/h4J8GQZTKRnw==",
+  "success": true,
+  "projectFilePath": "C:\\Users\\ifspn\\OneDrive\\Desktop\\APPS\\TesteTecnico\\SI_GerenciamentoClientProdutos\\TESTE_TECNICO\\Repositorio\\Repositorio.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\ifspn\\.nuget\\packages\\microsoft.extensions.configuration\\8.0.0\\microsoft.extensions.configuration.8.0.0.nupkg.sha512",
+    "C:\\Users\\ifspn\\.nuget\\packages\\microsoft.extensions.configuration.abstractions\\8.0.0\\microsoft.extensions.configuration.abstractions.8.0.0.nupkg.sha512",
+    "C:\\Users\\ifspn\\.nuget\\packages\\microsoft.extensions.dependencyinjection.abstractions\\8.0.0\\microsoft.extensions.dependencyinjection.abstractions.8.0.0.nupkg.sha512",
+    "C:\\Users\\ifspn\\.nuget\\packages\\microsoft.extensions.logging.abstractions\\8.0.0\\microsoft.extensions.logging.abstractions.8.0.0.nupkg.sha512",
+    "C:\\Users\\ifspn\\.nuget\\packages\\microsoft.extensions.primitives\\8.0.0\\microsoft.extensions.primitives.8.0.0.nupkg.sha512",
+    "C:\\Users\\ifspn\\.nuget\\packages\\npgsql\\8.0.3\\npgsql.8.0.3.nupkg.sha512"
+  ],
+  "logs": []
+}
