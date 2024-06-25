@@ -38,6 +38,9 @@
     <Compile Update="View\ProdutoView\ProdutoAddEdit.cs">
       <SubType>Form</SubType>
     </Compile>
+    <Compile Update="View\VendasView\VendasDetailsView.cs">
+      <SubType>Form</SubType>
+    </Compile>
     <Compile Update="View\VendasView\VendasListView.cs">
       <SubType>Form</SubType>
     </Compile>

@@ -1,8 +1,7 @@
 ﻿using Aplicacao.DTO;
 using Aplicacao.Interface;
-using Dominio.Entidades;
 using Repositorio.Infra;
-using System.Collections.Generic;
+using Serilog;
 
 namespace Aplicacao.Service
 {
@@ -17,10 +16,11 @@ namespace Aplicacao.Service
         {
             try
             {
-                throw new NotImplementedException();
+                await _vendaRepositorio.Atualizar(entidade.ToVendaEntity());
             }
             catch (Exception e)
             {
+                Log.Error(e.Message);
                 throw new Exception(e.Message);
             }
         }
@@ -29,10 +29,18 @@ namespace Aplicacao.Service
         {
             try
             {
-                throw new NotImplementedException();
+                var venda       = await _vendaRepositorio.ListarPorId(id);
+                var vendaHeader = new VendaDTO() { Id = venda.id, DataCriacao = venda.data_Criacao, IdCliente = venda.id_cliente };
+                var vendaCorpo  = await _vendaRepositorio.ListCorpoByID(vendaHeader.Id);
+
+                foreach (var item in vendaCorpo)
+                    vendaHeader.VendaCorpo.Add(new VendaCorpoDTO() { IdHeader = item.id_header,  IdVenda = item.id_venda, IdProduto = item.id_produto, Quantidade = item.quantidade });
+
+                return vendaHeader;
             }
             catch (Exception e)
             {
+                Log.Error(e.Message);
                 throw new Exception(e.Message);
             }
         }
@@ -41,11 +49,25 @@ namespace Aplicacao.Service
         {
             try
             {
-                throw new NotImplementedException();
+                var pedidoVenda = await _vendaRepositorio.ListarPorId(id);
+                await _vendaRepositorio.Deletar(pedidoVenda);
             }
             catch (Exception e)
             {
+                Log.Error(e.Message);
                 throw new Exception(e.Message);
+            }
+        }
+
+        public async Task GerarRelatorio(VendaDTO entidade)
+        {
+            try
+            {
+                await _vendaRepositorio.GerarRelatorio(entidade.ToVendaEntity());
+            }
+            catch (Exception)
+            {
+                Log.Error("Erro ao gerar o Relatório de Pedido de Vendas");
             }
         }
 
@@ -57,6 +79,7 @@ namespace Aplicacao.Service
             }
             catch (Exception e)
             {
+                Log.Error(e.Message);
                 throw new Exception(e.Message);
             }
         }
@@ -75,6 +98,7 @@ namespace Aplicacao.Service
             }
             catch (Exception e)
             {
+                Log.Error(e.Message);
                 throw new Exception(e.Message);
             }
         }

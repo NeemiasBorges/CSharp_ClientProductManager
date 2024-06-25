@@ -1,4 +1,6 @@
-﻿namespace Dominio.Entidades
+﻿using Npgsql;
+
+namespace Dominio.Entidades
 {
     public class VendaCorpo
     {
@@ -27,5 +29,17 @@
         public int    id_estoque { get; private set; }
         public double quantidade { get; private set; }
         public float  preco      { get; private set; }
+
+        public VendaCorpo DbToEntidade(NpgsqlDataReader reader)
+        {
+            return new VendaCorpo()
+            {
+                id_header  = reader.IsDBNull(0) ? 0 : reader.GetInt32(0),
+                id_venda   = reader.IsDBNull(1) ? 0 : reader.GetInt32(1),
+                id_produto = reader.IsDBNull(2) ? 0 : reader.GetInt32(2),
+                quantidade = reader.IsDBNull(4) ? 0.0 : reader.GetDouble(4),
+                preco      = reader.IsDBNull(5) ? 0.0f : reader.GetFloat(5)
+            };
+        }
     }
 }

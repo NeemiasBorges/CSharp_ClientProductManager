@@ -17,7 +17,7 @@ namespace Aplicacao.DTO
         [Required(ErrorMessage = "O ID do usuário é obrigatório.")]
         public int IdUsuario { get; set; }
 
-        public List<VendaCorpoDTO> VendaCorpo { get; set; }
+        public List<VendaCorpoDTO> VendaCorpo { get; set; } = new List<VendaCorpoDTO>();
         public VendaDTO() { }
 
         public VendaDTO(int id, int idCliente, DateTime dataCriacao, int idUsuario)

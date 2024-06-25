@@ -141,7 +141,7 @@ namespace Repositorio.Infra
                     try
                     {
                         var deleteVendaCorpoQuery = @"
-                        DELETE FROM VendaCorpo WHERE Id_Venda = @IdVenda;";
+                        DELETE FROM VendasCorpo WHERE Id_Venda = @IdVenda;";
 
                         await using (var cmd = new NpgsqlCommand(deleteVendaCorpoQuery, conn))
                         {
@@ -169,6 +169,11 @@ namespace Repositorio.Infra
                     }
                 }
             }
+        }
+
+        public async Task GerarRelatorio(Venda venda)
+        {
+            throw new NotImplementedException();
         }
 
         public async Task<List<Venda>> Listar()
@@ -203,6 +208,24 @@ namespace Repositorio.Infra
                         venda = venda.DbToEntidade(reader);
                     
                     return venda;
+                }
+            }
+        }
+
+        public async Task<List<VendaCorpo>> ListCorpoByID(int id)
+        {
+            List<VendaCorpo> vendaCorpos = new List<VendaCorpo>();
+            await using (var conn = new NpgsqlConnection(_StringConnection))
+            {
+                await conn.OpenAsync();
+                using (var cmd = new NpgsqlCommand($"SELECT * FROM VendasCorpo WHERE Id_venda = {id}", conn))
+                {
+                    var reader = await cmd.ExecuteReaderAsync();
+                    VendaCorpo vendaCorpo = new VendaCorpo();
+                    while (await reader.ReadAsync())
+                        vendaCorpos.Add(vendaCorpo.DbToEntidade(reader));
+
+                    return vendaCorpos;
                 }
             }
         }

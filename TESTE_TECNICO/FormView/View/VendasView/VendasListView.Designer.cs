@@ -30,11 +30,14 @@ namespace FormView.View.VendasView
         /// </summary>
         private void InitializeComponent()
         {
-            dataGridView1 = new DataGridView();
+            int tempIDPedidoVenda = 0;
+            dataGridView1         = new DataGridView();
+            dataGridView1.CellContentClick += new DataGridViewCellEventHandler(dgv_CellContentClick);
+
             btnImprimir = new DataGridViewButtonColumn();
-            btnVisualizar = new DataGridViewButtonColumn();
-            btnExcluir = new DataGridViewButtonColumn();
-            btn_backView = new MetroSetButton();
+            btnVisualizar         = new DataGridViewButtonColumn();
+            btnExcluir            = new DataGridViewButtonColumn();
+            btn_backView          = new MetroSetButton();
             ((System.ComponentModel.ISupportInitialize)dataGridView1).BeginInit();
             SuspendLayout();
             // 
@@ -120,6 +123,15 @@ namespace FormView.View.VendasView
             ((System.ComponentModel.ISupportInitialize)dataGridView1).EndInit();
             ResumeLayout(false);
         }
+
+        //private void InitializeReportViewer()
+        //{
+        //    reportViewer1 = new ReportViewer();
+        //    reportViewer1.Dock = DockStyle.Fill;
+        //    reportViewer1.LocalReport.ReportEmbeddedResource = "FormView.Relatorios.PedidoVenda.rdlc"; 
+        //    this.Controls.Add(reportViewer1);
+        //    reportViewer1.RefreshReport();
+        //}
 
         #endregion
 
