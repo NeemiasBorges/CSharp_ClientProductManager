@@ -1,18 +1,17 @@
 ﻿using Dominio.Entidades;
-using Microsoft.Extensions.Configuration;
 using Npgsql;
 using Repositorio.Infra.Util;
 using Repositorio.Interfaces;
 
 namespace Repositorio.Infra
 {
-    public class ClienteRepositorio : IClienteInterface
+    public class ClienteRepositorio : IInfraClienteInterface
     {
         private string _connectionString = "";
         private Conexao conn = new Conexao();
-        public ClienteRepositorio(IConfiguration configuration)
+        public ClienteRepositorio(string connectionSTRING)
         {
-            _connectionString = configuration.GetConnectionString("DefaultConnection");
+            _connectionString = connectionSTRING;
         }
 
         public async Task Adicionar(Cliente entidade)
@@ -21,7 +20,7 @@ namespace Repositorio.Infra
             {
                 await conn.OpenAsync();
 
-                using (var cmd = new NpgsqlCommand($"INSERT INTO Cliente (Nome, Id_Endereco, Id_Telefone, Email) VALUES ('{entidade.nome}', {entidade.id_endereco}, {entidade.id_telefone}, '{entidade.email}')", conn))
+                using (var cmd = new NpgsqlCommand($"INSERT INTO clientes (nome, id_endereco, id_telefone, email) VALUES ('{entidade.nome}', {entidade.id_endereco}, {entidade.id_telefone}, '{entidade.email}')", conn))
                 {
                     await cmd.ExecuteNonQueryAsync();
                 }
@@ -34,7 +33,7 @@ namespace Repositorio.Infra
             {
                 await conn.OpenAsync();
 
-                using (var cmd = new NpgsqlCommand($"UPDATE Cliente SET Nome = '{entidade.nome}', Id_Endereco = {entidade.id_endereco}, Id_Telefone = {entidade.id_telefone}, Email = '{entidade.email}' WHERE Id = {entidade.id}", conn))
+                using (var cmd = new NpgsqlCommand($"UPDATE clientes SET Nome = '{entidade.nome}', Id_Endereco = {entidade.id_endereco}, Id_Telefone = {entidade.id_telefone}, Email = '{entidade.email}' WHERE Id = {entidade.id}", conn))
                 {
                     await cmd.ExecuteNonQueryAsync();
                 }
@@ -47,7 +46,7 @@ namespace Repositorio.Infra
             {
                 await conn.OpenAsync();
 
-                using (var cmd = new NpgsqlCommand($"DELETE FROM Cliente WHERE Id = {entidade.id}", conn))
+                using (var cmd = new NpgsqlCommand($"DELETE FROM clientes WHERE Id = {entidade.id}", conn))
                 {
                     await cmd.ExecuteNonQueryAsync();
                 }
@@ -63,7 +62,7 @@ namespace Repositorio.Infra
             {
                 await conn.OpenAsync();
 
-                using (var cmd = new NpgsqlCommand("SELECT * FROM Cliente", conn))
+                using (var cmd = new NpgsqlCommand("SELECT * FROM clientes", conn))
                 await using (var reader = await cmd.ExecuteReaderAsync())
                 {
                     while (await reader.ReadAsync())
@@ -78,15 +77,23 @@ namespace Repositorio.Infra
 
         public async Task<Cliente> ListarPorId(int id)
         {
-            Cliente cliente               = new Cliente();
-            NpgsqlDataSource InternalConn = await conn.RetornaConexao(_connectionString);
+            Cliente cliente = new();
 
-            await using (var cmd    = InternalConn.CreateCommand($"SELECT * FROM Cliente WHERE Id = {id}"))
-            await using (var reader = await cmd.ExecuteReaderAsync())
+            await using (var conn = new NpgsqlConnection(_connectionString))
             {
-                while (await reader.ReadAsync())
+                await conn.OpenAsync();
+
+                using (var cmd = new NpgsqlCommand("SELECT * FROM Clientes WHERE Id = @id", conn))
                 {
-                    cliente = cliente.DbToEntidade(reader);
+                    cmd.Parameters.AddWithValue("id", id);
+
+                    using (var reader = await cmd.ExecuteReaderAsync())
+                    {
+                        if (await reader.ReadAsync())
+                        {
+                            cliente = cliente.DbToEntidade(reader);
+                        }
+                    }
                 }
             }
 

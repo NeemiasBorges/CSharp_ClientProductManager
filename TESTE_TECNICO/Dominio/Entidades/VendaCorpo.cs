@@ -13,6 +13,13 @@
             this.quantidade = quantidade;
             this.preco = preco;
         }
+        
+        public VendaCorpo(int id_produto, double quantidade, float preco)
+        {
+            this.id_produto = id_produto;
+            this.quantidade = quantidade;
+            this.preco = preco;
+        }
 
         public int    id_header  { get; private set; }
         public int    id_venda   { get; private set; }

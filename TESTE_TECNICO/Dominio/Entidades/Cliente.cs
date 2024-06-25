@@ -28,7 +28,9 @@ namespace Dominio.Entidades
         public int    id           { get; private set; }
         public string nome         { get; private set; }
         public int    id_endereco  { get; private set; }
+        public string vlr_endereco  { get; private set; }
         public int    id_telefone  { get; private set; }
+        public string vlr_telefone  { get; private set; }
         public string email        { get; private set; }
 
         public Cliente DbToEntidade(NpgsqlDataReader reader)
@@ -41,6 +43,16 @@ namespace Dominio.Entidades
                 id_telefone = reader.GetInt32(3),
                 email       = reader.GetString(4)
             };
+        }
+
+        public Endereco ToEnderecoEntity(Cliente cliEntity)
+        {
+            return new Endereco(cliEntity.id_endereco);
+        }
+
+        public Contato ToContatoEntity(Cliente cliEntity)
+        {
+            return new Contato(cliEntity.id_telefone);
         }
     }
 }

@@ -2,31 +2,38 @@
 using Repositorio.Infra.Util;
 using Repositorio.Interfaces;
 using Npgsql;
+using System.Reflection.Metadata;
 
 namespace Repositorio.Infra
 {
-    public class ProdutoRepositorio : IProdutoInterface
+    public class ProdutoRepositorio : IInfraProdutoInterface
     {
-        private string _StringConnection = "";
+        private string _stringConnection = "";
         private Conexao conn = new Conexao();
-        public ProdutoRepositorio()
+        public ProdutoRepositorio(string connectionString)
         {
-            
+            _stringConnection = connectionString;
         }
         public async Task Adicionar(Produto entidade)
         {
-            await using (var conn = new NpgsqlConnection(_StringConnection))
+            try
             {
-                await conn.OpenAsync();
+                await using (var conn = new NpgsqlConnection(_stringConnection))
+                {
+                    await conn.OpenAsync();
 
-                using (var cmd = new NpgsqlCommand($"INSERT INTO Produto (Nome, Descricao, Preco) VALUES ('{entidade.nome}', '{entidade.descricao}', {entidade.preco})", conn))
-                    await cmd.ExecuteNonQueryAsync();
+                    using (var cmd = new NpgsqlCommand($"INSERT INTO Produto (Nome, Descricao, Preco) VALUES ('{entidade.nome}', '{entidade.descricao}', {entidade.preco})", conn))
+                        await cmd.ExecuteNonQueryAsync();
+                }
+            }
+            catch (Exception e)
+            {
             }
         }
 
         public async Task Atualizar(Produto entidade)
         {
-            await using (var conn = new NpgsqlConnection(_StringConnection))
+            await using (var conn = new NpgsqlConnection(_stringConnection))
             {
                 await conn.OpenAsync();
 
@@ -37,7 +44,7 @@ namespace Repositorio.Infra
 
         public async Task Deletar(Produto entidade)
         {
-            await using (var conn = new NpgsqlConnection(_StringConnection))
+            await using (var conn = new NpgsqlConnection(_stringConnection))
             {
                 await conn.OpenAsync();
 
@@ -48,7 +55,7 @@ namespace Repositorio.Infra
 
         public async Task<List<Produto>> Listar()
         {
-            await using (var conn = new NpgsqlConnection(_StringConnection))
+            await using (var conn = new NpgsqlConnection(_stringConnection))
             {
                 await conn.OpenAsync();
 
@@ -68,7 +75,7 @@ namespace Repositorio.Infra
 
         public async Task<Produto> ListarPorId(int id)
         {
-            await using (var conn = new NpgsqlConnection(_StringConnection))
+            await using (var conn = new NpgsqlConnection(_stringConnection))
             {
                 await conn.OpenAsync();
 
@@ -78,7 +85,7 @@ namespace Repositorio.Infra
                     Produto produto = new Produto();
                     while (await reader.ReadAsync())
                         produto = produto.DbToEntidade(reader);
-                    
+
                     return produto;
                 }
             }

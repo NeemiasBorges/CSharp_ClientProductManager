@@ -2,10 +2,10 @@
 {
     public interface IComumInterface<TEntidade>
     {
-        void Inserir(TEntidade entidade);
-        void Atualizar(TEntidade entidade);
-        void Deletar(int id);
-        List<TEntidade> Listar();
-        TEntidade BuscarPorId(int id);
+        Task Inserir(TEntidade entidade);
+        Task Atualizar(TEntidade entidade);
+        Task Deletar(int id);
+        Task<List<TEntidade>> Listar();
+        Task<TEntidade> BuscarPorId(int id);
     }
 }

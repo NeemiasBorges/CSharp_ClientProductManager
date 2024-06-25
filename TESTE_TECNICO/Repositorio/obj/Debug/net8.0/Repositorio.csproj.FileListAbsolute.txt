@@ -1,0 +1,16 @@
+C:\Users\ifspn\OneDrive\Desktop\APPS\TesteTecnico\SI_GerenciamentoClientProdutos\TESTE_TECNICO\Repositorio\bin\Debug\net8.0\Repositorio.deps.json
+C:\Users\ifspn\OneDrive\Desktop\APPS\TesteTecnico\SI_GerenciamentoClientProdutos\TESTE_TECNICO\Repositorio\bin\Debug\net8.0\Repositorio.dll
+C:\Users\ifspn\OneDrive\Desktop\APPS\TesteTecnico\SI_GerenciamentoClientProdutos\TESTE_TECNICO\Repositorio\bin\Debug\net8.0\Repositorio.pdb
+C:\Users\ifspn\OneDrive\Desktop\APPS\TesteTecnico\SI_GerenciamentoClientProdutos\TESTE_TECNICO\Repositorio\bin\Debug\net8.0\Dominio.dll
+C:\Users\ifspn\OneDrive\Desktop\APPS\TesteTecnico\SI_GerenciamentoClientProdutos\TESTE_TECNICO\Repositorio\bin\Debug\net8.0\Dominio.pdb
+C:\Users\ifspn\OneDrive\Desktop\APPS\TesteTecnico\SI_GerenciamentoClientProdutos\TESTE_TECNICO\Repositorio\obj\Debug\net8.0\Repositorio.csproj.AssemblyReference.cache
+C:\Users\ifspn\OneDrive\Desktop\APPS\TesteTecnico\SI_GerenciamentoClientProdutos\TESTE_TECNICO\Repositorio\obj\Debug\net8.0\Repositorio.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\ifspn\OneDrive\Desktop\APPS\TesteTecnico\SI_GerenciamentoClientProdutos\TESTE_TECNICO\Repositorio\obj\Debug\net8.0\Repositorio.AssemblyInfoInputs.cache
+C:\Users\ifspn\OneDrive\Desktop\APPS\TesteTecnico\SI_GerenciamentoClientProdutos\TESTE_TECNICO\Repositorio\obj\Debug\net8.0\Repositorio.AssemblyInfo.cs
+C:\Users\ifspn\OneDrive\Desktop\APPS\TesteTecnico\SI_GerenciamentoClientProdutos\TESTE_TECNICO\Repositorio\obj\Debug\net8.0\Repositorio.csproj.CoreCompileInputs.cache
+C:\Users\ifspn\OneDrive\Desktop\APPS\TesteTecnico\SI_GerenciamentoClientProdutos\TESTE_TECNICO\Repositorio\obj\Debug\net8.0\Repositorio.sourcelink.json
+C:\Users\ifspn\OneDrive\Desktop\APPS\TesteTecnico\SI_GerenciamentoClientProdutos\TESTE_TECNICO\Repositorio\obj\Debug\net8.0\Reposito.F4C96B80.Up2Date
+C:\Users\ifspn\OneDrive\Desktop\APPS\TesteTecnico\SI_GerenciamentoClientProdutos\TESTE_TECNICO\Repositorio\obj\Debug\net8.0\Repositorio.dll
+C:\Users\ifspn\OneDrive\Desktop\APPS\TesteTecnico\SI_GerenciamentoClientProdutos\TESTE_TECNICO\Repositorio\obj\Debug\net8.0\refint\Repositorio.dll
+C:\Users\ifspn\OneDrive\Desktop\APPS\TesteTecnico\SI_GerenciamentoClientProdutos\TESTE_TECNICO\Repositorio\obj\Debug\net8.0\Repositorio.pdb
+C:\Users\ifspn\OneDrive\Desktop\APPS\TesteTecnico\SI_GerenciamentoClientProdutos\TESTE_TECNICO\Repositorio\obj\Debug\net8.0\ref\Repositorio.dll

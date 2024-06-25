@@ -25,15 +25,15 @@ namespace Dominio.Entidades
         public DateTime  data_Criacao      { get; private set; }
         public int       id_usuario        { get; private set; }
         public int       id_cliente        { get; private set; }
-        public List<VendaCorpo> listaCorpo { get; private set; }
+        public List<VendaCorpo> listaCorpo { get; set; } = new List<VendaCorpo>();
 
         public Venda DbToEntidade(NpgsqlDataReader reader)
         {
             return new Venda()
             {
                 id = reader.GetInt32(0),
-                id_cliente = reader.GetInt32(1),
-                data_Criacao = reader.GetDateTime(2),
+                data_Criacao = reader.GetDateTime(1),
+                id_cliente = reader.GetInt32(2),
                 id_usuario = reader.GetInt32(3)
             };
         }

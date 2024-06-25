@@ -4,17 +4,20 @@ namespace Repositorio.Infra.Util
 {
     public class Conexao
     {
-        public async Task<NpgsqlDataSource> RetornaConexao(string _connectionString)
+        private readonly string _connectionString;
+        public Conexao(){}
+
+        public async Task<NpgsqlConnection> RetornaConexao()
         {
             try
             {
-                await using var dataSource = NpgsqlDataSource.Create(_connectionString);
-
-                return dataSource;
+                var conexao = new NpgsqlConnection(_connectionString);
+                await conexao.OpenAsync();
+                return conexao;
             }
             catch (Exception e)
             {
-                throw new Exception($"Erro de conexao com o Banco, verifique: {e.Message}");
+                throw new Exception($"Erro de conexão com o Banco, verifique: {e.Message}");
             }
         }
     }
