@@ -3,24 +3,44 @@
   "WorkspaceRootPath": "C:\\Users\\ifspn\\OneDrive\\Desktop\\APPS\\TesteTecnico\\SI_GerenciamentoClientProdutos\\TESTE_TECNICO\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{F8792DB0-913B-44A2-B265-DC7F0F6515A0}|Dominio\\Dominio.csproj|c:\\users\\ifspn\\onedrive\\desktop\\apps\\testetecnico\\si_gerenciamentoclientprodutos\\teste_tecnico\\dominio\\dominio.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
-      "RelativeMoniker": "D:0:0:{F8792DB0-913B-44A2-B265-DC7F0F6515A0}|Dominio\\Dominio.csproj|solutionrelative:dominio\\dominio.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
+      "AbsoluteMoniker": "D:0:0:{3C5FFC51-A9FD-4DF5-B407-C2562614095C}|UnitTestes\\UnitTestes.csproj|c:\\users\\ifspn\\onedrive\\desktop\\apps\\testetecnico\\si_gerenciamentoclientprodutos\\teste_tecnico\\unittestes\\dominiotest\\venda\\vendatests.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3C5FFC51-A9FD-4DF5-B407-C2562614095C}|UnitTestes\\UnitTestes.csproj|solutionrelative:unittestes\\dominiotest\\venda\\vendatests.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{0BE7E807-87C9-4826-A873-21DD797057DD}|FormView\\FormView.csproj|C:\\Users\\ifspn\\OneDrive\\Desktop\\APPS\\TesteTecnico\\SI_GerenciamentoClientProdutos\\TESTE_TECNICO\\formview\\view\\vendasview\\vendashome.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
-      "RelativeMoniker": "D:0:0:{0BE7E807-87C9-4826-A873-21DD797057DD}|FormView\\FormView.csproj|solutionrelative:formview\\view\\vendasview\\vendashome.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+      "AbsoluteMoniker": "D:0:0:{3C5FFC51-A9FD-4DF5-B407-C2562614095C}|UnitTestes\\UnitTestes.csproj|c:\\users\\ifspn\\onedrive\\desktop\\apps\\testetecnico\\si_gerenciamentoclientprodutos\\teste_tecnico\\unittestes\\dominiotest\\produto\\produtotest.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3C5FFC51-A9FD-4DF5-B407-C2562614095C}|UnitTestes\\UnitTestes.csproj|solutionrelative:unittestes\\dominiotest\\produto\\produtotest.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{0BE7E807-87C9-4826-A873-21DD797057DD}|FormView\\FormView.csproj|C:\\Users\\ifspn\\OneDrive\\Desktop\\APPS\\TesteTecnico\\SI_GerenciamentoClientProdutos\\TESTE_TECNICO\\formview\\view\\vendasview\\vendaslistview.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
-      "RelativeMoniker": "D:0:0:{0BE7E807-87C9-4826-A873-21DD797057DD}|FormView\\FormView.csproj|solutionrelative:formview\\view\\vendasview\\vendaslistview.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+      "AbsoluteMoniker": "D:0:0:{3C5FFC51-A9FD-4DF5-B407-C2562614095C}|UnitTestes\\UnitTestes.csproj|c:\\users\\ifspn\\onedrive\\desktop\\apps\\testetecnico\\si_gerenciamentoclientprodutos\\teste_tecnico\\unittestes\\dominiotest\\endereco\\enderecotests.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3C5FFC51-A9FD-4DF5-B407-C2562614095C}|UnitTestes\\UnitTestes.csproj|solutionrelative:unittestes\\dominiotest\\endereco\\enderecotests.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{0BE7E807-87C9-4826-A873-21DD797057DD}|FormView\\FormView.csproj|c:\\users\\ifspn\\onedrive\\desktop\\apps\\testetecnico\\si_gerenciamentoclientprodutos\\teste_tecnico\\formview\\view\\vendasview\\vendasdetailsview.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
-      "RelativeMoniker": "D:0:0:{0BE7E807-87C9-4826-A873-21DD797057DD}|FormView\\FormView.csproj|solutionrelative:formview\\view\\vendasview\\vendasdetailsview.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+      "AbsoluteMoniker": "D:0:0:{3C5FFC51-A9FD-4DF5-B407-C2562614095C}|UnitTestes\\UnitTestes.csproj|c:\\users\\ifspn\\onedrive\\desktop\\apps\\testetecnico\\si_gerenciamentoclientprodutos\\teste_tecnico\\unittestes\\dominiotest\\contato\\contatotests.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3C5FFC51-A9FD-4DF5-B407-C2562614095C}|UnitTestes\\UnitTestes.csproj|solutionrelative:unittestes\\dominiotest\\contato\\contatotests.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{0BE7E807-87C9-4826-A873-21DD797057DD}|FormView\\FormView.csproj|C:\\Users\\ifspn\\OneDrive\\Desktop\\APPS\\TesteTecnico\\SI_GerenciamentoClientProdutos\\TESTE_TECNICO\\formview\\view\\vendasview\\vendaslistview.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{0BE7E807-87C9-4826-A873-21DD797057DD}|FormView\\FormView.csproj|solutionrelative:formview\\view\\vendasview\\vendaslistview.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{3C5FFC51-A9FD-4DF5-B407-C2562614095C}|UnitTestes\\UnitTestes.csproj|c:\\users\\ifspn\\onedrive\\desktop\\apps\\testetecnico\\si_gerenciamentoclientprodutos\\teste_tecnico\\unittestes\\dominiotest\\cliente\\clientetests.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3C5FFC51-A9FD-4DF5-B407-C2562614095C}|UnitTestes\\UnitTestes.csproj|solutionrelative:unittestes\\dominiotest\\cliente\\clientetests.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3C5FFC51-A9FD-4DF5-B407-C2562614095C}|UnitTestes\\UnitTestes.csproj|c:\\users\\ifspn\\onedrive\\desktop\\apps\\testetecnico\\si_gerenciamentoclientprodutos\\teste_tecnico\\unittestes\\applicationtests\\venda\\vendadtotests.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3C5FFC51-A9FD-4DF5-B407-C2562614095C}|UnitTestes\\UnitTestes.csproj|solutionrelative:unittestes\\applicationtests\\venda\\vendadtotests.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3C5FFC51-A9FD-4DF5-B407-C2562614095C}|UnitTestes\\UnitTestes.csproj|c:\\users\\ifspn\\onedrive\\desktop\\apps\\testetecnico\\si_gerenciamentoclientprodutos\\teste_tecnico\\unittestes\\applicationtests\\produto\\produtodtotests.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3C5FFC51-A9FD-4DF5-B407-C2562614095C}|UnitTestes\\UnitTestes.csproj|solutionrelative:unittestes\\applicationtests\\produto\\produtodtotests.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3C5FFC51-A9FD-4DF5-B407-C2562614095C}|UnitTestes\\UnitTestes.csproj|c:\\users\\ifspn\\onedrive\\desktop\\apps\\testetecnico\\si_gerenciamentoclientprodutos\\teste_tecnico\\unittestes\\applicationtests\\endereco\\enderecodtotests.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3C5FFC51-A9FD-4DF5-B407-C2562614095C}|UnitTestes\\UnitTestes.csproj|solutionrelative:unittestes\\applicationtests\\endereco\\enderecodtotests.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3C5FFC51-A9FD-4DF5-B407-C2562614095C}|UnitTestes\\UnitTestes.csproj|c:\\users\\ifspn\\onedrive\\desktop\\apps\\testetecnico\\si_gerenciamentoclientprodutos\\teste_tecnico\\unittestes\\applicationtests\\contato\\contatodtotests.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3C5FFC51-A9FD-4DF5-B407-C2562614095C}|UnitTestes\\UnitTestes.csproj|solutionrelative:unittestes\\applicationtests\\contato\\contatodtotests.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3C5FFC51-A9FD-4DF5-B407-C2562614095C}|UnitTestes\\UnitTestes.csproj|c:\\users\\ifspn\\onedrive\\desktop\\apps\\testetecnico\\si_gerenciamentoclientprodutos\\teste_tecnico\\unittestes\\applicationtests\\cliente\\clientedtotests.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3C5FFC51-A9FD-4DF5-B407-C2562614095C}|UnitTestes\\UnitTestes.csproj|solutionrelative:unittestes\\applicationtests\\cliente\\clientedtotests.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -35,63 +55,131 @@
             {
               "$type": "Document",
               "DocumentIndex": 0,
-              "Title": "Dominio",
-              "DocumentMoniker": "C:\\Users\\ifspn\\OneDrive\\Desktop\\APPS\\TesteTecnico\\SI_GerenciamentoClientProdutos\\TESTE_TECNICO\\Dominio\\Dominio.csproj",
-              "RelativeDocumentMoniker": "Dominio\\Dominio.csproj",
-              "ToolTip": "C:\\Users\\ifspn\\OneDrive\\Desktop\\APPS\\TesteTecnico\\SI_GerenciamentoClientProdutos\\TESTE_TECNICO\\Dominio\\Dominio.csproj",
-              "RelativeToolTip": "Dominio\\Dominio.csproj",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
-              "WhenOpened": "2024-06-25T16:33:40.33Z",
+              "Title": "VendaTests.cs",
+              "DocumentMoniker": "C:\\Users\\ifspn\\OneDrive\\Desktop\\APPS\\TesteTecnico\\SI_GerenciamentoClientProdutos\\TESTE_TECNICO\\UnitTestes\\DominioTest\\Venda\\VendaTests.cs",
+              "RelativeDocumentMoniker": "UnitTestes\\DominioTest\\Venda\\VendaTests.cs",
+              "ToolTip": "C:\\Users\\ifspn\\OneDrive\\Desktop\\APPS\\TesteTecnico\\SI_GerenciamentoClientProdutos\\TESTE_TECNICO\\UnitTestes\\DominioTest\\Venda\\VendaTests.cs",
+              "RelativeToolTip": "UnitTestes\\DominioTest\\Venda\\VendaTests.cs",
+              "ViewState": "AQIAACEAAAAAAAAAAAAAACkAAAAPAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-26T20:45:39.951Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "ProdutoTest.cs",
+              "DocumentMoniker": "C:\\Users\\ifspn\\OneDrive\\Desktop\\APPS\\TesteTecnico\\SI_GerenciamentoClientProdutos\\TESTE_TECNICO\\UnitTestes\\DominioTest\\Produto\\ProdutoTest.cs",
+              "RelativeDocumentMoniker": "UnitTestes\\DominioTest\\Produto\\ProdutoTest.cs",
+              "ToolTip": "C:\\Users\\ifspn\\OneDrive\\Desktop\\APPS\\TesteTecnico\\SI_GerenciamentoClientProdutos\\TESTE_TECNICO\\UnitTestes\\DominioTest\\Produto\\ProdutoTest.cs",
+              "RelativeToolTip": "UnitTestes\\DominioTest\\Produto\\ProdutoTest.cs",
+              "ViewState": "AQIAAA4AAAAAAAAAAAAAACUAAAAJAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-26T20:45:29.515Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "EnderecoTests.cs",
+              "DocumentMoniker": "C:\\Users\\ifspn\\OneDrive\\Desktop\\APPS\\TesteTecnico\\SI_GerenciamentoClientProdutos\\TESTE_TECNICO\\UnitTestes\\DominioTest\\Endereco\\EnderecoTests.cs",
+              "RelativeDocumentMoniker": "UnitTestes\\DominioTest\\Endereco\\EnderecoTests.cs",
+              "ToolTip": "C:\\Users\\ifspn\\OneDrive\\Desktop\\APPS\\TesteTecnico\\SI_GerenciamentoClientProdutos\\TESTE_TECNICO\\UnitTestes\\DominioTest\\Endereco\\EnderecoTests.cs",
+              "RelativeToolTip": "UnitTestes\\DominioTest\\Endereco\\EnderecoTests.cs",
+              "ViewState": "AQIAAAsAAAAAAAAAAAAAACcAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-26T20:45:23.375Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "VendaDTOTests.cs",
+              "DocumentMoniker": "C:\\Users\\ifspn\\OneDrive\\Desktop\\APPS\\TesteTecnico\\SI_GerenciamentoClientProdutos\\TESTE_TECNICO\\UnitTestes\\ApplicationTests\\Venda\\VendaDTOTests.cs",
+              "RelativeDocumentMoniker": "UnitTestes\\ApplicationTests\\Venda\\VendaDTOTests.cs",
+              "ToolTip": "C:\\Users\\ifspn\\OneDrive\\Desktop\\APPS\\TesteTecnico\\SI_GerenciamentoClientProdutos\\TESTE_TECNICO\\UnitTestes\\ApplicationTests\\Venda\\VendaDTOTests.cs",
+              "RelativeToolTip": "UnitTestes\\ApplicationTests\\Venda\\VendaDTOTests.cs",
+              "ViewState": "AQIAADAAAAAAAAAAAAAAADcAAAAFAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-26T20:44:50.237Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "ProdutoDTOTests.cs",
+              "DocumentMoniker": "C:\\Users\\ifspn\\OneDrive\\Desktop\\APPS\\TesteTecnico\\SI_GerenciamentoClientProdutos\\TESTE_TECNICO\\UnitTestes\\ApplicationTests\\Produto\\ProdutoDTOTests.cs",
+              "RelativeDocumentMoniker": "UnitTestes\\ApplicationTests\\Produto\\ProdutoDTOTests.cs",
+              "ToolTip": "C:\\Users\\ifspn\\OneDrive\\Desktop\\APPS\\TesteTecnico\\SI_GerenciamentoClientProdutos\\TESTE_TECNICO\\UnitTestes\\ApplicationTests\\Produto\\ProdutoDTOTests.cs",
+              "RelativeToolTip": "UnitTestes\\ApplicationTests\\Produto\\ProdutoDTOTests.cs",
+              "ViewState": "AQIAAD4AAAAAAAAAAAAAAEkAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-26T20:44:34.123Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "EnderecoDTOTests.cs",
+              "DocumentMoniker": "C:\\Users\\ifspn\\OneDrive\\Desktop\\APPS\\TesteTecnico\\SI_GerenciamentoClientProdutos\\TESTE_TECNICO\\UnitTestes\\ApplicationTests\\Endereco\\EnderecoDTOTests.cs",
+              "RelativeDocumentMoniker": "UnitTestes\\ApplicationTests\\Endereco\\EnderecoDTOTests.cs",
+              "ToolTip": "C:\\Users\\ifspn\\OneDrive\\Desktop\\APPS\\TesteTecnico\\SI_GerenciamentoClientProdutos\\TESTE_TECNICO\\UnitTestes\\ApplicationTests\\Endereco\\EnderecoDTOTests.cs",
+              "RelativeToolTip": "UnitTestes\\ApplicationTests\\Endereco\\EnderecoDTOTests.cs",
+              "ViewState": "AQIAACAAAAAAAAAAAAAAAA4AAAAwAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-26T20:44:28.333Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "ContatoDTOTests.cs",
+              "DocumentMoniker": "C:\\Users\\ifspn\\OneDrive\\Desktop\\APPS\\TesteTecnico\\SI_GerenciamentoClientProdutos\\TESTE_TECNICO\\UnitTestes\\ApplicationTests\\Contato\\ContatoDTOTests.cs",
+              "RelativeDocumentMoniker": "UnitTestes\\ApplicationTests\\Contato\\ContatoDTOTests.cs",
+              "ToolTip": "C:\\Users\\ifspn\\OneDrive\\Desktop\\APPS\\TesteTecnico\\SI_GerenciamentoClientProdutos\\TESTE_TECNICO\\UnitTestes\\ApplicationTests\\Contato\\ContatoDTOTests.cs",
+              "RelativeToolTip": "UnitTestes\\ApplicationTests\\Contato\\ContatoDTOTests.cs",
+              "ViewState": "AQIAAB4AAAAAAAAAAAAAABUAAAAtAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-26T20:44:21.082Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 3,
-              "Title": "VendasDetailsView.cs [Projeto]",
-              "DocumentMoniker": "C:\\Users\\ifspn\\OneDrive\\Desktop\\APPS\\TesteTecnico\\SI_GerenciamentoClientProdutos\\TESTE_TECNICO\\FormView\\View\\VendasView\\VendasDetailsView.cs",
-              "RelativeDocumentMoniker": "FormView\\View\\VendasView\\VendasDetailsView.cs",
-              "ToolTip": "C:\\Users\\ifspn\\OneDrive\\Desktop\\APPS\\TesteTecnico\\SI_GerenciamentoClientProdutos\\TESTE_TECNICO\\FormView\\View\\VendasView\\VendasDetailsView.cs [Projeto]",
-              "RelativeToolTip": "FormView\\View\\VendasView\\VendasDetailsView.cs [Projeto]",
+              "Title": "ContatoTests.cs",
+              "DocumentMoniker": "C:\\Users\\ifspn\\OneDrive\\Desktop\\APPS\\TesteTecnico\\SI_GerenciamentoClientProdutos\\TESTE_TECNICO\\UnitTestes\\DominioTest\\Contato\\ContatoTests.cs",
+              "RelativeDocumentMoniker": "UnitTestes\\DominioTest\\Contato\\ContatoTests.cs",
+              "ToolTip": "C:\\Users\\ifspn\\OneDrive\\Desktop\\APPS\\TesteTecnico\\SI_GerenciamentoClientProdutos\\TESTE_TECNICO\\UnitTestes\\DominioTest\\Contato\\ContatoTests.cs",
+              "RelativeToolTip": "UnitTestes\\DominioTest\\Contato\\ContatoTests.cs",
+              "ViewState": "AQIAAA4AAAAAAAAAAAAAABMAAAAXAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-06-25T16:23:07.449Z",
-              "EditorCaption": " [Projeto]"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "VendasHome.cs [Projeto]",
-              "DocumentMoniker": "C:\\Users\\ifspn\\OneDrive\\Desktop\\APPS\\TesteTecnico\\SI_GerenciamentoClientProdutos\\TESTE_TECNICO\\FormView\\View\\VendasView\\VendasHome.cs",
-              "RelativeDocumentMoniker": "FormView\\View\\VendasView\\VendasHome.cs",
-              "ToolTip": "C:\\Users\\ifspn\\OneDrive\\Desktop\\APPS\\TesteTecnico\\SI_GerenciamentoClientProdutos\\TESTE_TECNICO\\FormView\\View\\VendasView\\VendasHome.cs [Projeto]",
-              "RelativeToolTip": "FormView\\View\\VendasView\\VendasHome.cs [Projeto]",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-06-25T16:26:22.996Z",
-              "EditorCaption": " [Projeto]"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "VendasListView.cs [Projeto]",
-              "DocumentMoniker": "C:\\Users\\ifspn\\OneDrive\\Desktop\\APPS\\TesteTecnico\\SI_GerenciamentoClientProdutos\\TESTE_TECNICO\\FormView\\View\\VendasView\\VendasListView.cs",
-              "RelativeDocumentMoniker": "FormView\\View\\VendasView\\VendasListView.cs",
-              "ToolTip": "C:\\Users\\ifspn\\OneDrive\\Desktop\\APPS\\TesteTecnico\\SI_GerenciamentoClientProdutos\\TESTE_TECNICO\\FormView\\View\\VendasView\\VendasListView.cs [Projeto]",
-              "RelativeToolTip": "FormView\\View\\VendasView\\VendasListView.cs [Projeto]",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-06-25T16:26:21.226Z",
-              "EditorCaption": " [Projeto]"
+              "WhenOpened": "2024-06-26T20:44:02.751Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 4,
-              "Title": "VendasListView.Designer.cs",
-              "DocumentMoniker": "C:\\Users\\ifspn\\OneDrive\\Desktop\\APPS\\TesteTecnico\\SI_GerenciamentoClientProdutos\\TESTE_TECNICO\\FormView\\View\\VendasView\\VendasListView.Designer.cs",
-              "RelativeDocumentMoniker": "FormView\\View\\VendasView\\VendasListView.Designer.cs",
-              "ToolTip": "C:\\Users\\ifspn\\OneDrive\\Desktop\\APPS\\TesteTecnico\\SI_GerenciamentoClientProdutos\\TESTE_TECNICO\\FormView\\View\\VendasView\\VendasListView.Designer.cs",
-              "RelativeToolTip": "FormView\\View\\VendasView\\VendasListView.Designer.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAEAAAAAAAAA",
+              "Title": "ClienteTests.cs",
+              "DocumentMoniker": "C:\\Users\\ifspn\\OneDrive\\Desktop\\APPS\\TesteTecnico\\SI_GerenciamentoClientProdutos\\TESTE_TECNICO\\UnitTestes\\DominioTest\\Cliente\\ClienteTests.cs",
+              "RelativeDocumentMoniker": "UnitTestes\\DominioTest\\Cliente\\ClienteTests.cs",
+              "ToolTip": "C:\\Users\\ifspn\\OneDrive\\Desktop\\APPS\\TesteTecnico\\SI_GerenciamentoClientProdutos\\TESTE_TECNICO\\UnitTestes\\DominioTest\\Cliente\\ClienteTests.cs",
+              "RelativeToolTip": "UnitTestes\\DominioTest\\Cliente\\ClienteTests.cs",
+              "ViewState": "AQIAABYAAAAAAAAAAAAAACcAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-06-25T16:26:13.506Z",
+              "WhenOpened": "2024-06-26T20:43:52.086Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "ClienteDTOTests.cs",
+              "DocumentMoniker": "C:\\Users\\ifspn\\OneDrive\\Desktop\\APPS\\TesteTecnico\\SI_GerenciamentoClientProdutos\\TESTE_TECNICO\\UnitTestes\\ApplicationTests\\Cliente\\ClienteDTOTests.cs",
+              "RelativeDocumentMoniker": "UnitTestes\\ApplicationTests\\Cliente\\ClienteDTOTests.cs",
+              "ToolTip": "C:\\Users\\ifspn\\OneDrive\\Desktop\\APPS\\TesteTecnico\\SI_GerenciamentoClientProdutos\\TESTE_TECNICO\\UnitTestes\\ApplicationTests\\Cliente\\ClienteDTOTests.cs",
+              "RelativeToolTip": "UnitTestes\\ApplicationTests\\Cliente\\ClienteDTOTests.cs",
+              "ViewState": "AQIAAAMAAAAAAAAAAAAAABkAAAAJAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-26T20:43:29.653Z",
               "EditorCaption": ""
             }
           ]
