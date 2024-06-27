@@ -11,7 +11,7 @@ Teste Prático para Desenvolvedor Pleno C#, Windows Forms e PostgreSQL
 - **Remover Cliente**: Permite a exclusão de clientes do sistema.
 -**Listar Clientes**: Permite o sistema de listar todos os clientes ja criados
 
-####Gerenciamento de Produtos
+#### Gerenciamento de Produtos
 - **Cadastrar Produto**: Permite a inclusão de novos produtos com as seguintes informações: nome, descrição, preço e estoque.
 - **Editar Produto**: Permite a modificação das informações de produtos já cadastrados.
 - **Remover Produto**: Permite a exclusão de produtos do sistema.
