@@ -102,7 +102,7 @@ Abra o projeto no Visual Studio, configure a string de conexão no código e exe
 
 #### Clientes
 - **Cadastro/Edição/Exclusão**
-![clienteGIF](https://github.com/NeemiasBorges/SI_GerenciamentoClientProdutos/assets/51499704/b7a3facf-43e9-46fa-a350-83539c5e4d05)
+- ![clienteGIF](https://github.com/NeemiasBorges/SI_GerenciamentoClientProdutos/assets/51499704/b7a3facf-43e9-46fa-a350-83539c5e4d05)
 
 #### Produtos
 - **Cadatro/Edição/Exclusão/Listar**
