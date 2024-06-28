@@ -1,9 +1,8 @@
 # Neemias Borges - SI_GerenciamentoClientProdutos
-Teste Prático para Desenvolvedor Pleno C#, Windows Forms e PostgreSQL
 
 # Documentação do Sistema
 
-## Casos de Uso 
+## Requisitos do Sistema
 
 #### Gerenciamento de Clientes
 - **Cadastrar Cliente**: Permite a inclusão de novos clientes com as seguintes informações: nome, endereço, telefone e email.
