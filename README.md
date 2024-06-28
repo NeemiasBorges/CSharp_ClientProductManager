@@ -9,7 +9,7 @@ Teste Prático para Desenvolvedor Pleno C#, Windows Forms e PostgreSQL
 - **Cadastrar Cliente**: Permite a inclusão de novos clientes com as seguintes informações: nome, endereço, telefone e email.
 - **Editar Cliente**: Permite a modificação das informações de clientes já cadastrados.
 - **Remover Cliente**: Permite a exclusão de clientes do sistema.
--**Listar Clientes**: Permite o sistema de listar todos os clientes ja criados
+- **Listar Clientes**: Permite o sistema de listar todos os clientes ja criados
 
 #### Gerenciamento de Produtos
 - **Cadastrar Produto**: Permite a inclusão de novos produtos com as seguintes informações: nome, descrição, preço e estoque.
