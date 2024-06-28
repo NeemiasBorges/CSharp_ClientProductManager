@@ -106,13 +106,16 @@ Abra o projeto no Visual Studio, configure a string de conexão no código e exe
 
 #### Produtos
 - **Cadatro/Edição/Exclusão/Listar**
+  ***
 ![produto](https://github.com/NeemiasBorges/SI_GerenciamentoClientProdutos/assets/51499704/cb4f53cc-6a82-4d33-9a84-3550f4dc78c2)
   
 #### Vendas
+***
 - **Cadatro/Edição/Listar**
 ![vendas](https://github.com/NeemiasBorges/SI_GerenciamentoClientProdutos/assets/51499704/99d7a6d3-4b97-4124-80ce-7f2fd6a2f11c)
 
 ### Relatórios
+***
 ![relatorio](https://github.com/NeemiasBorges/SI_GerenciamentoClientProdutos/assets/51499704/be133622-234b-4ca5-a8e6-61b98505338a)
 
 ***
