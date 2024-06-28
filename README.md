@@ -35,6 +35,11 @@
 - **Testes**: MSTest e Moq para testes
 - **Logging e Alertas**: SEQ
 
+## System Design
+
+![image](https://github.com/NeemiasBorges/SI_GerenciamentoClientProdutos/assets/51499704/04d6e6ba-6cf0-4cf2-b8cc-5bdd5deceb68)
+
+
 ## Estrutura do Banco de Dados e Tabelas
 
 ### clientes
