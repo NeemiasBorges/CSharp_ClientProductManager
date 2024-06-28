@@ -35,6 +35,61 @@
 - **Testes**: MSTest e Moq para testes
 - **Logging e Alertas**: SEQ
 
+## Estrutura do Banco de Dados e Tabelas
+
+### clientes
+
+| Coluna      | Tipo                  | Descrição                |
+|-------------|-----------------------|--------------------------|
+| id          | integer               | Identificador único      |
+| nome        | character varying(100)| Nome do cliente          |
+| id_endereco | integer               | Referência ao endereço   |
+| id_telefone | integer               | Referência ao telefone   |
+| email       | character varying(100)| Email do cliente         |
+
+### contato
+
+| Coluna      | Tipo                  | Descrição                  |
+|-------------|-----------------------|----------------------------|
+| id          | integer               | Identificador único        |
+| nome        | character varying(100)| Nome do contato            |
+
+### endereco
+
+| Coluna      | Tipo                  | Descrição                  |
+|-------------|-----------------------|----------------------------|
+| id          | integer               | Identificador único        |
+| nome        | character varying(100)| Nome do endereço           |
+
+### produto
+
+| Coluna      | Tipo                  | Descrição                  |
+|-------------|-----------------------|----------------------------|
+| id          | integer               | Identificador único        |
+| nome        | character varying(100)| Nome do produto            |
+| descricao   | character varying(255)| Descrição do produto       |
+| preco       | numeric(10,2)         | Preço do produto           |
+
+### vendas
+
+| Coluna      | Tipo                  | Descrição                      |
+|-------------|-----------------------|--------------------------------|
+| id          | integer               | Identificador único            |
+| data_criacao| timestamp             | Data de criação da venda       |
+| id_usuario  | integer               | Identificador do usuário       |
+| id_cliente  | integer               | Identificador do cliente       |
+
+### vendascorpo
+
+| Coluna      | Tipo                  | Descrição                      |
+|-------------|-----------------------|--------------------------------|
+| id          | integer               | Identificador único            |
+| id_venda    | integer               | Referência à venda             |
+| id_produto  | integer               | Referência ao produto          |
+| id_estoque  | integer               | Referência ao estoque          |
+| quantidade  | double precision      | Quantidade do produto          |
+| preco       | numeric(10,2)         | Preço do produto na venda      |
+
 ## Estrutura do Projeto e Pastas
 
 Abaixo está a estrutura de pastas do projeto, organizada de acordo com a minha interpretação da Clean Architecture:
