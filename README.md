@@ -120,6 +120,6 @@ Abra o projeto no Visual Studio, configure a string de conexão no código e exe
 ## Contato
 entre em contato comigo através dos seguintes canais:
 
-E-mail: neemiasb.dev@gmail.com
-Telefone: +55 11 96292-6357
+- E-mail: neemiasb.dev@gmail.com
+- Telefone: +55 11 96292-6357
 
