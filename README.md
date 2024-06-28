@@ -101,15 +101,15 @@ Para executar os testes basta Clicar com o botão direito na camada e selecionar
 Abra o projeto no Visual Studio, configure a string de conexão no código e execute o projeto. A interface gráfica será exibida, permitindo a utilização das funcionalidades descritas acima.
 
 #### Clientes
-- Cadastro/Edição/Exclusão
+- **Cadastro/Edição/Exclusão**
 ![clienteGIF](https://github.com/NeemiasBorges/SI_GerenciamentoClientProdutos/assets/51499704/b7a3facf-43e9-46fa-a350-83539c5e4d05)
 
 #### Produtos
-- Cadatro/Edição/Exclusão/Listar
+- **Cadatro/Edição/Exclusão/Listar**
 ![produto](https://github.com/NeemiasBorges/SI_GerenciamentoClientProdutos/assets/51499704/cb4f53cc-6a82-4d33-9a84-3550f4dc78c2)
   
 #### Vendas
-- Cadatro/Edição/Listar
+- **Cadatro/Edição/Listar**
 ![vendas](https://github.com/NeemiasBorges/SI_GerenciamentoClientProdutos/assets/51499704/99d7a6d3-4b97-4124-80ce-7f2fd6a2f11c)
 
 ### Relatórios
