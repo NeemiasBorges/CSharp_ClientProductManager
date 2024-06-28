@@ -76,12 +76,12 @@ Abaixo está a estrutura de pastas do projeto, organizada de acordo com a minha 
    ![image](https://github.com/NeemiasBorges/SI_GerenciamentoClientProdutos/assets/51499704/2a444ea4-b8a9-4ea6-8fbb-c4067729b2f1)
 
 ### 2. Conexão com o Banco de Dados
-A conexão com o banco de dados PostgreSQL é realizada através do NPGSQL. Para fazer a conexao com o banco de dados, devemos configurar a String de Conexao no arquivo App.config localizado na camada View
+A conexão com o banco de dados PostgreSQL é realizada através do NPGSQL. Para fazer a conexao com o banco de dados, devemos configurar a String de Conexao no arquivo `App.config` localizado na camada `View`
 Deve se alterar a tag PorstgresConnection
 
 
 #### 3. Configuração do SEQ (Opcional)
-Caso deseje configurar tambem o Seq, basta no mesmo arquiv App.config alterar a key Serilog:SeqUrl
+Caso deseje configurar tambem o ``Seq``, basta no mesmo arquiv `App.config` alterar a key Serilog:SeqUrl
  
 ### 4. Configurando o Banco de Dados
 Execute os scripts SQL fornecidos na pasta raiz com o nome de `scriptsSQL` para criar as tabelas necessárias no PostgreSQL.
