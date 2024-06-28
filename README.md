@@ -112,9 +112,7 @@ Abra o projeto no Visual Studio, configure a string de conexão no código e exe
 ### Relatórios
 ![relatorio](https://github.com/NeemiasBorges/SI_GerenciamentoClientProdutos/assets/51499704/be133622-234b-4ca5-a8e6-61b98505338a)
 
----
 ***
-___
 
 ## Contato
 entre em contato comigo através dos seguintes canais:
