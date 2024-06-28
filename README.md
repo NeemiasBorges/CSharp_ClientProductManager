@@ -1,4 +1,4 @@
-# Neemias Borges - SI_GerenciamentoClientProdutos
+# Neemias Borges - Gerenciamento de Client Produtos e Vendas
 
 # Documentação do Sistema
 
@@ -112,8 +112,13 @@ Abra o projeto no Visual Studio, configure a string de conexão no código e exe
 ### Relatórios
 ![relatorio](https://github.com/NeemiasBorges/SI_GerenciamentoClientProdutos/assets/51499704/be133622-234b-4ca5-a8e6-61b98505338a)
 
+---
+***
+___
 
 ## Contato
-+55 11 96292-6357
+entre em contato comigo através dos seguintes canais:
 
+E-mail: neemiasb.dev@gmail.com
+Telefone: +55 11 96292-6357
 
