@@ -73,7 +73,8 @@ Abaixo está a estrutura de pastas do projeto, organizada de acordo com a minha 
 1. Instale o [PostgreSQL](https://www.postgresql.org/docs/current/release-16-3.html) versão 16
 
 2. Instale e configure o [SEQ](https://datalust.co/seq) para logging e alertas
-   
+   ![image](https://github.com/NeemiasBorges/SI_GerenciamentoClientProdutos/assets/51499704/2a444ea4-b8a9-4ea6-8fbb-c4067729b2f1)
+
 ### 2. Conexão com o Banco de Dados
 A conexão com o banco de dados PostgreSQL é realizada através do NPGSQL. Para fazer a conexao com o banco de dados, devemos configurar a String de Conexao no arquivo App.config localizado na camada View
 Deve se alterar a tag PorstgresConnection
@@ -98,17 +99,19 @@ Para executar os testes basta Clicar com o botão direito na camada e selecionar
 Abra o projeto no Visual Studio, configure a string de conexão no código e execute o projeto. A interface gráfica será exibida, permitindo a utilização das funcionalidades descritas acima.
 
 #### Clientes
+- Cadastro/Edição/Exclusão
+![clienteGIF](https://github.com/NeemiasBorges/SI_GerenciamentoClientProdutos/assets/51499704/b7a3facf-43e9-46fa-a350-83539c5e4d05)
 
 #### Produtos
-- **Cadastrar Produto**: Permite a inclusão de novos produtos com as seguintes informações: nome, descrição, preço e estoque.
-- **Editar Produto**: Permite a modificação das informações de produtos já cadastrados.
-- **Remover Produto**: Permite a exclusão de produtos do sistema.
-- **Listar Produtor**: Permite o sistema de listar todos os produtos criados pelo usuario
-
+- Cadatro/Edição/Exclusão/Listar
+![produto](https://github.com/NeemiasBorges/SI_GerenciamentoClientProdutos/assets/51499704/cb4f53cc-6a82-4d33-9a84-3550f4dc78c2)
+  
 #### Vendas
+- Cadatro/Edição/Listar
+![vendas](https://github.com/NeemiasBorges/SI_GerenciamentoClientProdutos/assets/51499704/99d7a6d3-4b97-4124-80ce-7f2fd6a2f11c)
 
 ### Relatórios
-
+![relatorio](https://github.com/NeemiasBorges/SI_GerenciamentoClientProdutos/assets/51499704/be133622-234b-4ca5-a8e6-61b98505338a)
 
 
 ## Contato
