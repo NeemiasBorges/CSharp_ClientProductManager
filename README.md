@@ -41,7 +41,10 @@ Abaixo está a estrutura de pastas do projeto, organizada de acordo com a minha 
 
 ```
 /src
-│
+├── scriptsSQL.sql
+├── /UnitTests
+│   ├── DominioTest
+│   ├── ApplicationTest
 ├── /Dominio
 │   ├── /Entidades
 ├── /Aplicacao
