@@ -57,6 +57,7 @@ namespace FormView.View.ClienteView
             }
             catch (Exception err)
             {
+                AppLogger.Logger.Error(err.Message);
                 MessageBox.Show($"Erro ao adicionar o cliente, verique os logs. {err.Message}", "Erro", MessageBoxButtons.OK, MessageBoxIcon.Error);
             }
         }

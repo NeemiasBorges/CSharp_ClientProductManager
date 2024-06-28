@@ -2,6 +2,7 @@ using FormView.View.ClienteView;
 using FormView.View.ProdutoView;
 using FormView.View.VendasView;
 using System;
+using Serilog;
 using System.Windows.Forms;
 
 namespace FormView
@@ -34,6 +35,11 @@ namespace FormView
         {
             ClienteHome cliente = new ClienteHome();
             cliente.Show();
+        }
+
+        private void App_Load(object sender, EventArgs e)
+        {
+
         }
     }
 }

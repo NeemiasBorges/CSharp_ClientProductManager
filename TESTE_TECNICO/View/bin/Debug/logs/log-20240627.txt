@@ -1,0 +1,8 @@
+2024-06-27 20:13:14.482 -03:00 [INF] ========== INICIANDO SISTEMA ==========
+2024-06-27 20:13:55.820 -03:00 [INF] ========== INICIANDO SISTEMA ==========
+2024-06-27 20:31:12.908 -03:00 [INF] ========== INICIANDO SISTEMA ==========
+2024-06-27 21:06:32.189 -03:00 [INF] ========== INICIANDO SISTEMA ==========
+2024-06-27 21:07:45.292 -03:00 [ERR] 23503: atualização ou exclusão em tabela "produto" viola restrição de chave estrangeira "vendascorpo_id_produto_fkey" em "vendascorpo"
+
+DETAIL: Detail redacted as it may contain sensitive data. Specify 'Include Error Detail' in the connection string to include this information.
+2024-06-27 21:12:53.911 -03:00 [ERR] Listando Clientes

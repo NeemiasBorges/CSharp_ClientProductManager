@@ -14,7 +14,7 @@ namespace FormView.View.ProdutoView
             InitializeComponent();
         }
 
-        private void btn_SalvarProd_Click(object sender, EventArgs e)
+        private async void btn_SalvarProd_Click(object sender, EventArgs e)
         {
             try
             {
@@ -42,32 +42,18 @@ namespace FormView.View.ProdutoView
 
                 ProdutoDTO produto = new ProdutoDTO(nome, descricao, preco);
 
-                _vendasService.Inserir(produto);
-
+                await _vendasService.Inserir(produto);
                 MessageBox.Show("Produto salvo com sucesso!", "Sucesso", MessageBoxButtons.OK, MessageBoxIcon.Information);
                 this.Close();
             }
             catch (Exception err)
             {
+                AppLogger.Logger.Error(err.Message);
                 MessageBox.Show($"Erro ao adicionar o produto, verique os logs. {err.Message}", "Erro", MessageBoxButtons.OK, MessageBoxIcon.Error);
             }
         }
 
-        private void textBox1_Text(object sender, EventArgs e)
-        {
-
-        }
-
-        private void textBox2_Text(object sender, EventArgs e)
-        {
-
-        }
-
-        private void textBox3_Text(object sender, EventArgs e)
-        {
-
-        }
-
+      
         private void btn_backView_Click(object sender, EventArgs e)
         {
             this.Close();

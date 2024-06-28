@@ -21,6 +21,8 @@ namespace FormView.View.VendasView
 
         public async void InitializeMetroSetListBox()
         {
+            AppLogger.Logger.Error($"Listando Clientes");
+
             List<ClienteDTO> clientes = await _clienteService.Listar();
             foreach (var produto in clientes)
             {
@@ -49,7 +51,7 @@ namespace FormView.View.VendasView
             catch (Exception ex)
             {
                 MessageBox.Show($"Erro ao processar a venda: {ex.Message}!");
-                Log.Error($"Erro ao processar a venda: {ex.Message}", ex);
+                AppLogger.Logger.Error($"Erro ao processar a venda: {ex.Message}", ex);
             }
         }
 

@@ -245,12 +245,12 @@ namespace FormView.View.VendasView
                 }
                 else
                 {
-                    Log.Error("A coluna 'productColumn' não foi encontrada.");
+                    AppLogger.Logger.Error("A coluna 'productColumn' não foi encontrada.");
                 }
             }
             catch (Exception e)
             {
-                Log.Error($"Erro ao carregar todos os produtos: {e.Message}", e);
+                AppLogger.Logger.Error($"Erro ao carregar todos os produtos: {e.Message}", e);
             }
         }
 
