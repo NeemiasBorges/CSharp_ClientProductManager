@@ -1,6 +1,4 @@
-# Neemias Borges - Gerenciamento de Client Produtos e Vendas
-
-# Documentação do Sistema
+# Documentação do Sistema [For study purposes]
 
 ## Requisitos do Sistema
 
